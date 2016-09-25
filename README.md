@@ -1,2 +1,2 @@
 # multiple-predictor-association-test
-A package to perform statistical association test when multiple predictor variable exists
+A package to perform statistical association test when multiple predictor variable exists. Under the null hypothesis that none of the predictor variables is associated with the outcome, this package calculates a p-value using a score test, similar to that of SKAT. To run, call multi_tissue_p function with a outcome vector and predictor matrix. It will return the p-value.
